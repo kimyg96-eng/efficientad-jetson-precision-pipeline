@@ -1,0 +1,7 @@
+{
+  "replay_source": "verified STEP17B_FULL_PIPELINE_1fkr3KJH/current, round1 serial per-image outputs",
+  "source_archive_sha256": "9258078e7a41299cd0256fdfd95332fd03acc5d2d37c8f513e548d5406a1087e",
+  "source_interface_sha256": "c8722eb334b6709538801cc56b78b5a62681ec838ffe8dd27b6a643b56482648",
+  "unique_test_images": 410,
+  "experimental_claims": "none; this package prepares a new experiment"
+}

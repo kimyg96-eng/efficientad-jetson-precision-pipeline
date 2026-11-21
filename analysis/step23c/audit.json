@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "runs": 240,
+  "hash_files": 1476,
+  "offered": 820800,
+  "completed": 639532,
+  "sensor_read_errors": 0,
+  "max_score_replay_error": 0.0,
+  "max_energy_reintegration_error_j": 0.0,
+  "max_power_gap_ms": 56.751645,
+  "telemetry_ranges": {
+    "gpu_hz": [
+      612000000,
+      612000000
+    ],
+    "emc_hz": [
+      3199000000,
+      3199000000
+    ],
+    "policy0_cpu_khz": [
+      1728000,
+      1728000
+    ],
+    "policy4_cpu_khz": [
+      1728000,
+      1728000
+    ],
+    "thermal_zone0_mC": [
+      44593,
+      53593
+    ],
+    "thermal_zone1_mC": [
+      41968,
+      50781
+    ],
+    "thermal_zone8_mC": [
+      44593,
+      53593
+    ],
+    "hwmon2_pwm1": [
+      44,
+      62
+    ],
+    "hwmon4_rpm": [
+      760,
+      1079
+    ]
+  },
+  "restoration": "{\"path\": \"/sys/class/devfreq/bwmgr/min_freq\", \"requested\": 204000000, \"readbacks\": [204000000, 204000000], \"status\": \"PASS\"}\n{\"path\": \"/sys/class/devfreq/17000000.gpu/min_freq\", \"requested\": 306000000, \"readbacks\": [306000000, 306000000], \"status\": \"PASS\"}\n{\"path\": \"/sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq\", \"requested\": 729600, \"readbacks\": [729600, 729600], \"status\": \"PASS\"}\n{\"path\": \"/sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq\", \"requested\": 729600, \"readbacks\": [729600, 729600], \"status\": \"PASS\"}\nCLOCK_MIN_BOUNDS_RESTORE=PASS_SELECTED_FIELDS_READ_BACK\n"
+}

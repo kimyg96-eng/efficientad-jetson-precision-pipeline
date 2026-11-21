@@ -1,0 +1,42 @@
+{
+  "bottle": {
+    "default_tf32": {
+      "sha256": "29b3b6b0c7d952163b1ce4248bbeb19cfcfc58d38961438634f959038fcefb85",
+      "relative_path": "STEP13A_R1_EFFICIENTAD_TF32_REFERENCES_G2Jd0c1J/bottle/default_tf32_allowed/model.engine"
+    },
+    "automatic_fp16": {
+      "sha256": "3bd5d06241056f7626be7cf90d1b22ed50b9fed9a83a853037756a1df7f18a21",
+      "relative_path": "STEP11I_EFFICIENTAD_TRT_FP16_4xaX3g44/bottle_efficientad_s_fp16.engine"
+    }
+  },
+  "carpet": {
+    "default_tf32": {
+      "sha256": "1da523d94b51e7cb8069f6846cb7f5a1b0001b5970681378ef289a3113fb0e76",
+      "relative_path": "STEP13A_R1_EFFICIENTAD_TF32_REFERENCES_G2Jd0c1J/carpet/default_tf32_allowed/model.engine"
+    },
+    "automatic_fp16": {
+      "sha256": "61e0f067f8226f1ad0bf6d06ec385ed0edadd3576a1bc1840416cdb6d428512a",
+      "relative_path": "STEP11I_EFFICIENTAD_TRT_FP16_4xaX3g44/carpet_efficientad_s_fp16.engine"
+    }
+  },
+  "capsule": {
+    "default_tf32": {
+      "sha256": "9915038040bd17f4880c3b2828c2e4250d36a9eba735a966c34c09e13040a59e",
+      "relative_path": "STEP14D_EFFICIENTAD_CAPSULE_GRID_TRT_l9mSnq8t/capsule/default_tf32/model.engine"
+    },
+    "automatic_fp16": {
+      "sha256": "f7c36c864203e7812be743ecd56ab2b54d04566893804c89e62ed92ef62591ef",
+      "relative_path": "STEP14D_EFFICIENTAD_CAPSULE_GRID_TRT_l9mSnq8t/capsule/automatic_fp16/model.engine"
+    }
+  },
+  "grid": {
+    "default_tf32": {
+      "sha256": "44cdd4556d745d1d5e75c8e625470c2ec581dece82baef412eaa63c9d69794db",
+      "relative_path": "STEP14D_EFFICIENTAD_CAPSULE_GRID_TRT_l9mSnq8t/grid/default_tf32/model.engine"
+    },
+    "automatic_fp16": {
+      "sha256": "ee2d96d206dfafae6cc723b3831bebf341be27af3b8834dc0dd67a2a6ecd7777",
+      "relative_path": "STEP14D_EFFICIENTAD_CAPSULE_GRID_TRT_l9mSnq8t/grid/automatic_fp16/model.engine"
+    }
+  }
+}
