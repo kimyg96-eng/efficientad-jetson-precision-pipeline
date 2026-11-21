@@ -1,0 +1,5 @@
+category,train_images,val_images,steps,seed,teacher_sha256,calibration
+bottle,125,21,40000,20261116,a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d,normal VAL map quantiles; same VAL used for screening and threshold derivation; test remains distinct
+carpet,168,28,40000,20261116,a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d,normal VAL map quantiles; same VAL used for screening and threshold derivation; test remains distinct
+capsule,131,22,40000,20261116,a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d,normal VAL map quantiles; same VAL used for screening and threshold derivation; test remains distinct
+grid,159,27,40000,20261116,a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d,normal VAL map quantiles; same VAL used for screening and threshold derivation; test remains distinct

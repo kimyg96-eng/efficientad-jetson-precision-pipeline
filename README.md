@@ -6,7 +6,7 @@ Repository: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline
 
 ## Current status
 
-Prepared for a private repository. This package has not been pushed by the assistant. No public release, DOI or source-code license has been issued. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories. They are not camera-system or hard-real-time guarantees.
+The initial code package was uploaded by the repository owner to a private repository. A draft release holds the four pipeline raw archives; this source supplement is prepared for a further owner upload. No public release, DOI or source-code license has been issued. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories. They are not camera-system or hard-real-time guarantees.
 
 ## Contents
 
@@ -23,7 +23,7 @@ Prepared for a private repository. This package has not been pushed by the assis
 
 The source archives remain separately held by the authors. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. Raw trace archives should be attached to a versioned release or an archive service after redistribution review. Do not claim public availability before these assets and links exist.
 
-The original training, ONNX export, engine-build and complete numerical-evaluation evidence is not included in this initial upload. A complete paper-wide release must add or link those sources. Existing acquisition entry points reference the original Jetson evidence tree and frozen hashes; they are archived exact source, not portable turnkey installers. Do not run clock-control acquisition scripts on another system without reviewing the expected hardware paths and recovery handling.
+The source supplement now includes training/export/validation/test wrappers and a source coverage index. Complete collected text evidence is in STEP24A_REVIEW.zip; STEP24B review adds independent lineage checks and previously prepared energy-audit outputs. See SOURCE_COVERAGE.md and THIRD_PARTY_NOTICES.md. Excluded dataset/weight/engine/map binaries and external reconstruction dependencies remain outside this code package. Earlier inference-workload raw traces are not asserted complete. Acquisition entry points use the original Jetson tree and hashes rather than a turnkey installer.
 
 ## Reproduce derived results
 
@@ -49,4 +49,4 @@ The analysis scripts intentionally validate fixed accepted corpus dimensions. Th
 
 ## Licensing and public-release checklist
 
-No license is granted by this preparation step. Third-party datasets, weights, libraries and copied code retain their respective terms. Review source provenance and select an appropriate license before public release. Add/link the missing early evidence; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
+No license is granted by this preparation step. Third-party datasets, weights, libraries and copied code retain their respective terms. Review source provenance and select an appropriate license before public release. Verify all source/raw asset coverage and external reconstruction dependencies; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
