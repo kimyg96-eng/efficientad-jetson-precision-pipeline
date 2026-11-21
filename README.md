@@ -6,7 +6,9 @@ Repository: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline
 
 ## Current status
 
-The initial code package was uploaded by the repository owner to a private repository. A draft release holds the four pipeline raw archives; this source supplement is prepared for a further owner upload. No public release, DOI or source-code license has been issued. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories. They are not camera-system or hard-real-time guarantees.
+Private repository with a draft v0.1.0 release. The owner-provided screenshots show acquisition, analysis, provenance and source_evidence folders and six attached evidence archives. These screenshots establish visible names and state, not independent verification of remote asset bytes. Local source copies were checked; download and verify remote assets before final release.
+
+No public release or DOI has been issued. LICENSE_SCOPE_PROPOSAL.md is a proposal, not a code-license grant. External weights/images/engines are not redistributed here. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
 
 ## Contents
 
@@ -17,11 +19,11 @@ The initial code package was uploaded by the repository owner to a private repos
 - `analysis/step23a`: exploratory deadline curves and finite-window queue accounting from existing traces.
 - `analysis/step23c`: independently audited dense-grid summaries and on-time delivery curves.
 - `analysis/step23d`: admission rejection categories and completed-image stage decomposition.
-- `RAW_DATA_MANIFEST.csv`: expected raw-archive names, sizes and SHA-256 values. Large archives are deliberately separate from this code upload.
+- `RAW_DATA_MANIFEST.csv`: expected raw-archive names, sizes and SHA-256 values. The six release-asset names and exact byte/hash values are recorded using their names in the draft, without local download suffixes.
 
 ## Raw evidence
 
-The source archives remain separately held by the authors. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. Raw trace archives should be attached to a versioned release or an archive service after redistribution review. Do not claim public availability before these assets and links exist.
+The source archives are staged as private draft-release assets by the repository owner. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. They remain private draft assets; no public availability is claimed.
 
 The source supplement now includes training/export/validation/test wrappers and a source coverage index. Complete collected text evidence is in STEP24A_REVIEW.zip; STEP24B review adds independent lineage checks and previously prepared energy-audit outputs. See SOURCE_COVERAGE.md and THIRD_PARTY_NOTICES.md. Excluded dataset/weight/engine/map binaries and external reconstruction dependencies remain outside this code package. Earlier inference-workload raw traces are not asserted complete. Acquisition entry points use the original Jetson tree and hashes rather than a turnkey installer.
 
@@ -50,3 +52,14 @@ The analysis scripts intentionally validate fixed accepted corpus dimensions. Th
 ## Licensing and public-release checklist
 
 No license is granted by this preparation step. Third-party datasets, weights, libraries and copied code retain their respective terms. Review source provenance and select an appropriate license before public release. Verify all source/raw asset coverage and external reconstruction dependencies; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
+
+## Verify this source snapshot and the six evidence assets
+
+The checksum list describes the intended research-material snapshot, not GitHub-generated ZIP wrappers or unrelated files such as .gitignore. Requires Python 3.11 or newer. Verification reads file bytes only and never imports or executes archived experiments.
+
+```bash
+python tools/verify_materials.py --root .
+python tools/verify_materials.py --root . --assets /path/to/downloaded-release-assets
+```
+
+Save the six assets under the exact names in RAW_DATA_MANIFEST.csv. Renaming an archive does not change its SHA-256; do not rewrite or recompress original archives. Existing internal historical manifests remain unchanged.
