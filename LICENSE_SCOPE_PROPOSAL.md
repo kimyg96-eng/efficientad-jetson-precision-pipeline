@@ -1,7 +1,7 @@
-# License selection proposal for review
+# Original source licensing decision
 
-No source-code license is granted by this file. Keep the private draft until selection and notices are complete.
+Status: approved by the repository owner on 21 November 2026.
 
-Proposed scope: researcher-original experiment wrappers and analysis code may use MIT if the rights holders choose that grant. Copied/derived third-party implementation files retain their original terms and notices. Dataset images/masks, auxiliary images, teacher weights, TensorRT engines and excluded binaries are outside such a source-code grant. No license for raw experimental results or documentation is selected here.
+The prior proposal is superseded by the user's explicit instruction to apply MIT only to researcher-original code. The canonical scope is LICENSE, MIT_LICENSED_FILES.csv and LICENSES/MIT.txt. Eighty-eight original .py/.sh source files are enumerated by exact path and SHA-256. Their bytes are unchanged. This authorization is not extended to material for which the researcher lacks licensing rights.
 
-Before making any public release, confirm rights-holder approval, identify original versus copied/derived files, include appropriate license texts/notices, and keep unresolved external-weight conditions explicit. Do not choose a blanket GitHub license that silently purports to relicense third-party assets.
+One copied anomalib upstream implementation remains Apache-2.0 with its existing copyright/SPDX notice and the included Apache-2.0 license text. Data, weights, engines, raw results and release archives are outside the original-code MIT grant. No public release or DOI has been issued by this update. The historical filename is retained so existing repository links are not broken.

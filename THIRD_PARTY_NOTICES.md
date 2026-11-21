@@ -1,10 +1,10 @@
 # Third party provenance and licensing scope
 
-This document records observed provenance. It does not grant a new license or provide a legal conclusion.
+This document records third-party provenance. Researcher-original code is separately licensed by LICENSE and MIT_LICENSED_FILES.csv; no third-party rights are expanded by that grant.
 
 ## Implementation source
 
-The collected implementation is anomalib 2.3.0. Its package metadata lists Apache License 2.0, and the copied upstream EfficientAD module preserves Intel copyright and SPDX-License-Identifier: Apache-2.0. The exact upstream file appears in source_evidence/STEP11B_EFFICIENTAD_ASSETS_Cn7KT6Qn/upstream_efficientad_lightning_model.py and in the complete source archive. Preserve those notices; include the applicable upstream license text and any required notices before public redistribution. Researcher-original experiment wrappers and analysis are distinct from that upstream implementation.
+The collected implementation is anomalib 2.3.0. Its package metadata lists Apache License 2.0, and the copied upstream EfficientAD module preserves Intel copyright and SPDX-License-Identifier: Apache-2.0. The exact upstream file appears in source_evidence/STEP11B_EFFICIENTAD_ASSETS_Cn7KT6Qn/upstream_efficientad_lightning_model.py and in the complete source archive. Preserve those notices; the Apache-2.0 license text is included in LICENSES/Apache-2.0.txt, and any additional applicable upstream notices must remain intact. Researcher-original experiment wrappers and analysis are distinct from that upstream implementation.
 
 Primary package record: https://pypi.org/project/anomalib/2.3.0/
 Apache license text: https://www.apache.org/licenses/LICENSE-2.0.txt

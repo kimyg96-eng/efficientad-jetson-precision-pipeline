@@ -8,7 +8,7 @@ Repository: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline
 
 Private repository with a draft v0.1.0 release. The owner-provided screenshots show acquisition, analysis, provenance and source_evidence folders and six attached evidence archives. These screenshots establish visible names and state, not independent verification of remote asset bytes. Local source copies were checked; download and verify remote assets before final release.
 
-No public release or DOI has been issued. LICENSE_SCOPE_PROPOSAL.md is a proposal, not a code-license grant. External weights/images/engines are not redistributed here. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
+No public release or DOI has been issued. Researcher-original source files listed in MIT_LICENSED_FILES.csv are MIT-licensed; the copied upstream implementation retains Apache-2.0. See LICENSE for the exact boundary. External weights/images/engines are not redistributed here. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
 
 ## Contents
 
@@ -51,7 +51,7 @@ The analysis scripts intentionally validate fixed accepted corpus dimensions. Th
 
 ## Licensing and public-release checklist
 
-No license is granted by this preparation step. Third-party datasets, weights, libraries and copied code retain their respective terms. Review source provenance and select an appropriate license before public release. Verify all source/raw asset coverage and external reconstruction dependencies; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
+The owner has authorized MIT for the 88 researcher-original source files listed by path/hash. Third-party datasets, weights, libraries and copied code retain their respective terms. Documents and raw results are not implicitly relicensed by this source-code decision. Verify all source/raw asset coverage and external reconstruction dependencies; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
 
 ## Verify this source snapshot and the six evidence assets
 
@@ -63,3 +63,7 @@ python tools/verify_materials.py --root . --assets /path/to/downloaded-release-a
 ```
 
 Save the six assets under the exact names in RAW_DATA_MANIFEST.csv. Renaming an archive does not change its SHA-256; do not rewrite or recompress original archives. Existing internal historical manifests remain unchanged.
+
+## Source code license
+
+Researcher-original Python and shell files are licensed under MIT only as enumerated in MIT_LICENSED_FILES.csv. The original source bytes are unchanged. The copied upstream anomalib module is excluded from that list, retains its Intel/Apache-2.0 header, and has the Apache-2.0 text in LICENSES/. Data, weights, engines, results and raw evidence archives are outside this grant. Licensing source does not create a public release or DOI and does not resolve external-weight conditions.

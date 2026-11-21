@@ -1,0 +1,20 @@
+Repository licensing scope
+
+The repository owner authorized MIT licensing of researcher-original code on
+21 November 2026. The MIT grant applies only to the source-file paths and
+SHA-256 versions enumerated in MIT_LICENSED_FILES.csv. The unmodified MIT
+license text and copyright notice are in LICENSES/MIT.txt.
+
+This is not a blanket relicense of the repository or release attachments.
+The copied upstream anomalib implementation retains its Intel copyright and
+Apache-2.0 SPDX notice. Its applicable license text is included in
+LICENSES/Apache-2.0.txt; see THIRD_PARTY_NOTICES.md for provenance and path.
+
+Dataset images and masks, auxiliary images, teacher weights, checkpoints,
+ONNX/TensorRT engines, numerical arrays, experimental results, raw archives,
+third-party dependencies and documents not listed in MIT_LICENSED_FILES.csv
+are outside this original-code MIT grant. Their terms are not changed here.
+No permission to redistribute excluded external assets is inferred.
+
+Source bytes were not modified to add headers, preserving their evidence
+hashes. Distribute the applicable license and scope information with the code.
