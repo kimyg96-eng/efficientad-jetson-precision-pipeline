@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite the associated manuscript when published. No DOI or public release has been issued."
-title: "Precision Policies and Preprocessing Concurrency for EfficientAD-S on Jetson AGX Orin"
+message: "Please cite the versioned reproducibility materials; cite the associated manuscript separately when published."
+title: "Precision Policies and Preprocessing Concurrency for EfficientAD-S on Jetson AGX Orin — Reproducibility Materials"
 authors:
   - family-names: Kim
     given-names: Young-Geun
@@ -8,3 +8,7 @@ authors:
     given-names: Min-Hee
 repository-code: "https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline"
 type: software
+version: "v0.1.0"
+doi: "10.5281/zenodo.24414736"
+date-released: "2026-11-21"
+url: "https://zenodo.org/records/24414736"

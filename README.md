@@ -6,9 +6,14 @@ Repository: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline
 
 ## Current status
 
-Private repository with a draft v0.1.0 release. The owner-supplied GitHub Download ZIP was checked against the intended source snapshot: all 137 checksum records matched, including the source-license scope and notices. The owner's six-file verification report also records exact size and SHA-256 matches against RAW_DATA_MANIFEST.csv. These checks establish byte integrity of the supplied files; they do not establish public availability, a DOI, or completeness of every historical raw trace.
+Version v0.1.0 is publicly available as a GitHub pre-release and as a Zenodo archive.
 
-No public release or DOI has been issued. Researcher-original source files listed in MIT_LICENSED_FILES.csv are MIT-licensed; the copied upstream implementation retains Apache-2.0. See LICENSE for the exact boundary. External weights/images/engines are not redistributed here. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
+- Version DOI: https://doi.org/10.5281/zenodo.24414736
+- GitHub release: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline/releases/tag/v0.1.0
+
+The Zenodo public record lists the versioned code ZIP and six evidence archives. The supplied pre-publication source snapshot passed 137 checksum records and the six supplied archive downloads matched their expected sizes and SHA-256 values. These byte checks do not establish completeness of every historical raw trace.
+
+MIT applies only to the 88 researcher-original source files listed in MIT_LICENSED_FILES.csv; the copied upstream implementation retains Apache-2.0. See LICENSE. Data and raw archives are outside the MIT grant. External weights/images/engines are not redistributed here. Results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
 
 ## Contents
 
@@ -23,7 +28,7 @@ No public release or DOI has been issued. Researcher-original source files liste
 
 ## Raw evidence
 
-The source archives are staged as private draft-release assets by the repository owner. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. The six evidence archives remain private draft assets; no public availability is claimed.
+The six evidence archives and a versioned source snapshot are publicly preserved in the Zenodo v0.1.0 record. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes.
 
 The source supplement now includes training/export/validation/test wrappers and a source coverage index. Complete collected text evidence is in STEP24A_REVIEW.zip; STEP24B review adds independent lineage checks and previously prepared energy-audit outputs. See SOURCE_COVERAGE.md and THIRD_PARTY_NOTICES.md. Excluded dataset/weight/engine/map binaries and external reconstruction dependencies remain outside this code package. Earlier inference-workload raw traces are not asserted complete. Acquisition entry points use the original Jetson tree and hashes rather than a turnkey installer.
 
@@ -49,9 +54,9 @@ The analysis scripts intentionally validate fixed accepted corpus dimensions. Th
 - Host consumer service fraction is not hardware GPU utilization. Capacity rejection is an admission category, not a unique causal bottleneck diagnosis.
 - Little's law addresses means; finite-window accounting does not predict p95.
 
-## Licensing and public-release checklist
+## Licensing and citation
 
-The owner has authorized MIT for the 88 researcher-original source files listed by path/hash. Third-party datasets, weights, libraries and copied code retain their respective terms. Documents and raw results are not implicitly relicensed by this source-code decision. Source-snapshot and six-archive integrity checks are complete for the supplied downloads. Coverage limitations and external reconstruction dependencies remain documented above. Publishing a versioned release, changing repository visibility and obtaining an archive DOI are separate steps. Update availability statements only after the corresponding public links actually exist.
+MIT is authorized only for the 88 researcher-original source files listed by path/hash. Third-party code and external assets retain their respective terms. Documents and raw results are not implicitly relicensed. Cite the archived v0.1.0 materials using https://doi.org/10.5281/zenodo.24414736. Public preservation does not remove the source-coverage and reconstruction limitations described above. The v0.1.0 source archive preserves its original documentation as a historical snapshot; this main-branch status update does not rewrite that archive.
 
 ## Verify this source snapshot and the six evidence assets
 
