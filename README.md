@@ -6,7 +6,7 @@ Repository: https://github.com/kimyg96-eng/efficientad-jetson-precision-pipeline
 
 ## Current status
 
-Private repository with a draft v0.1.0 release. The owner-provided screenshots show acquisition, analysis, provenance and source_evidence folders and six attached evidence archives. These screenshots establish visible names and state, not independent verification of remote asset bytes. Local source copies were checked; download and verify remote assets before final release.
+Private repository with a draft v0.1.0 release. The owner-supplied GitHub Download ZIP was checked against the intended source snapshot: all 137 checksum records matched, including the source-license scope and notices. The owner's six-file verification report also records exact size and SHA-256 matches against RAW_DATA_MANIFEST.csv. These checks establish byte integrity of the supplied files; they do not establish public availability, a DOI, or completeness of every historical raw trace.
 
 No public release or DOI has been issued. Researcher-original source files listed in MIT_LICENSED_FILES.csv are MIT-licensed; the copied upstream implementation retains Apache-2.0. See LICENSE for the exact boundary. External weights/images/engines are not redistributed here. Observed results concern EfficientAD-S, one Jetson AGX Orin, MODE_30W and four MVTec AD categories; they are not camera-system or hard-real-time guarantees.
 
@@ -23,7 +23,7 @@ No public release or DOI has been issued. Researcher-original source files liste
 
 ## Raw evidence
 
-The source archives are staged as private draft-release assets by the repository owner. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. They remain private draft assets; no public availability is claimed.
+The source archives are staged as private draft-release assets by the repository owner. This repository package includes no dataset images, model checkpoint bytes or TensorRT engine bytes. The six evidence archives remain private draft assets; no public availability is claimed.
 
 The source supplement now includes training/export/validation/test wrappers and a source coverage index. Complete collected text evidence is in STEP24A_REVIEW.zip; STEP24B review adds independent lineage checks and previously prepared energy-audit outputs. See SOURCE_COVERAGE.md and THIRD_PARTY_NOTICES.md. Excluded dataset/weight/engine/map binaries and external reconstruction dependencies remain outside this code package. Earlier inference-workload raw traces are not asserted complete. Acquisition entry points use the original Jetson tree and hashes rather than a turnkey installer.
 
@@ -51,7 +51,7 @@ The analysis scripts intentionally validate fixed accepted corpus dimensions. Th
 
 ## Licensing and public-release checklist
 
-The owner has authorized MIT for the 88 researcher-original source files listed by path/hash. Third-party datasets, weights, libraries and copied code retain their respective terms. Documents and raw results are not implicitly relicensed by this source-code decision. Verify all source/raw asset coverage and external reconstruction dependencies; attach raw assets; create a versioned release and archive DOI; then update manuscript availability statements with real public links. Keep this repository private until that review is complete.
+The owner has authorized MIT for the 88 researcher-original source files listed by path/hash. Third-party datasets, weights, libraries and copied code retain their respective terms. Documents and raw results are not implicitly relicensed by this source-code decision. Source-snapshot and six-archive integrity checks are complete for the supplied downloads. Coverage limitations and external reconstruction dependencies remain documented above. Publishing a versioned release, changing repository visibility and obtaining an archive DOI are separate steps. Update availability statements only after the corresponding public links actually exist.
 
 ## Verify this source snapshot and the six evidence assets
 
